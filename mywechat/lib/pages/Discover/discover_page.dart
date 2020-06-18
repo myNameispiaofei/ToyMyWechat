@@ -14,6 +14,7 @@ class _DiscoverPageState extends State<DiscoverPage> {
         child: Column(
           children: <Widget>[
             Container(
+              color: Colors.red,
               height: 55,
             ),
             Expanded(
