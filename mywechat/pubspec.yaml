@@ -84,6 +84,7 @@ flutter:
      - images/we_pay.png
      - images/we_photo album.png
      - images/we_setting_icon.png
+     - images/搜一搜.png
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
 
