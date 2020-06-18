@@ -13,7 +13,7 @@ class _FriendsPageState extends State<FriendsPage> {
         title: Text('通讯录'),
       ),
       body:Center(
-        child:Text('通讯录'),
+        child:Image.asset("images/Hank.png"),
       ),
     );
   }

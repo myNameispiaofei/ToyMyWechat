@@ -41,10 +41,49 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
-
+  assets:
+     - images/add_friend_icon.png
+     - images/b_group_chat_icon.png
+     - images/badge.png
+     - images/bubble.png
+     - images/camera_icon.png
+     - images/collect_money.png
+     - images/friend_c_icon.png
+     - images/game_icon.png
+     - images/game_icon_2.png
+     - images/group_chat.png
+     - images/Hank.png
+     - images/icon_friends_add.png
+     - images/icon_right.png
+     - images/look_icon.png
+     - images/magnifier_icon_b.png
+     - images/nearby_icon.png
+     - images/new_friend_icon.png
+     - images/official_accounts_icon.png
+     - images/pentagram_b.png
+     - images/pentagram_w.png
+     - images/round_plus.png
+     - images/search_star.png
+     - images/shake.png
+     - images/shopping_icon.png
+     - images/star_icon.png
+     - images/sweep_black.png
+     - images/sweep_blue.png
+     - images/sweep_w.png
+     - images/tabbar_chat.png
+     - images/tabbar_chat_hl.png
+     - images/tabbar_friends.png
+     - images/tabbar_friends_hl.png
+     - images/tabbar_mine.png
+     - images/tabbar_mine_hl@2x.png
+     - images/tip_label_icon.png
+     - images/we_applets.png
+     - images/we_card_icon.png
+     - images/we_collect.png
+     - images/we_emoji.png
+     - images/we_pay.png
+     - images/we_photo album.png
+     - images/we_setting_icon.png
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
 
