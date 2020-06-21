@@ -82,8 +82,9 @@ flutter:
      - images/we_collect.png
      - images/we_emoji.png
      - images/we_pay.png
-     - images/we_photo album.png
+     - images/we_photo_album.png
      - images/we_setting_icon.png
+     - images/my_portrait.png
      - images/搜一搜.png
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
