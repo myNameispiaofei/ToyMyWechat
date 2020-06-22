@@ -14,7 +14,7 @@ class _DiscoverPageState extends State<DiscoverPage> {
         child: Column(
           children: <Widget>[
             Container(
-              color: Colors.red,
+              child: Center(child: Text('发现', style: TextStyle(fontSize: 20,fontWeight: FontWeight.w600),), ),
               height: 55,
             ),
             Expanded(
