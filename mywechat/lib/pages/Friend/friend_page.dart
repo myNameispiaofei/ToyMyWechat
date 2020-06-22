@@ -57,10 +57,10 @@ class _FriendsPageState extends State<FriendsPage> {
   }
 
   final List<Friends> _headerData = [
-    Friends(imageUrl: 'images/新的朋友.png', name: '新的朋友'),
-    Friends(imageUrl: 'images/群聊.png', name: '群聊'),
-    Friends(imageUrl: 'images/标签.png', name: '标签'),
-    Friends(imageUrl: 'images/公众号.png', name: '公众号'),
+    Friends(imageUrl: 'images/new_friend_icon.png', name: '新的朋友'),
+    Friends(imageUrl: 'images/group_chat.png', name: '群聊'),
+    Friends(imageUrl: 'images/tip_label_icon.png', name: '标签'),
+    Friends(imageUrl: 'images/official_accounts_icon.png', name: '公众号'),
   ];
 
 
