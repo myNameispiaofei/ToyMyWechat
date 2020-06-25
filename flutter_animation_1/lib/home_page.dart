@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:flutteranimation1/ui_4/home_page.dart' as ui_4;
+import 'package:flutteranimation1/ui_3/home_page.dart' as ui_3;
 
 class MyHomePage extends StatelessWidget {
   _launchURL(String url) async {
@@ -28,16 +29,29 @@ class MyHomePage extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             GestureDetector(
-              onTap: (){
-                Navigator.of(context).push(MaterialPageRoute(
-                    builder: (context) => ui_4
-                        .HomePage()));
+              onTap: () {
+                Navigator.of(context).push(
+                    MaterialPageRoute(builder: (context) => ui_4.HomePage()));
               },
               child: Padding(
                 padding:
                     const EdgeInsets.symmetric(horizontal: 15, vertical: 20),
                 child: Text(
                   "My_Flutter UI _4",
+                  style: TextStyle(color: Colors.black, fontSize: 20),
+                ),
+              ),
+            ),
+            GestureDetector(
+              onTap: () {
+                Navigator.of(context).push(
+                    MaterialPageRoute(builder: (context) => ui_3.Homepage()));
+              },
+              child: Padding(
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 15, vertical: 20),
+                child: Text(
+                  "My_Flutter UI _3",
                   style: TextStyle(color: Colors.black, fontSize: 20),
                 ),
               ),
